@@ -1,0 +1,57 @@
+### Maven ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Herramientas locales (IA / MCP) ###
+.claude/settings.local.json
+.mcp.json
+.agents/
+
+### Binarios y artefactos ###
+*.class
+*.jar
+*.war
+*.zip
+*.exe
+*.log
+
+### Bases de datos locales ###
+*.db
+*.sqlite
+*.mv.db
+*.trace.db
+
+### SO ###
+.DS_Store
+Thumbs.db
